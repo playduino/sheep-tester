@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88c9457a-bea2-457f-94da-c611a4bbda4a")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 77.47 29.21)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ed985a8-84a3-4d9c-aa8a-4653505597e1")
+		(property "Sheetname" "Power Supply"
+			(at 77.47 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power supply.kicad_sch"
+			(at 77.47 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 29.21)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a740b7f-f4c6-4eb9-8ac7-f417eb126c9c")
+		(property "Sheetname" "Analog Inputs"
+			(at 172.72 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog inputs.kicad_sch"
+			(at 172.72 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 29.21)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73295f38-321b-4961-83fc-c1d9b87d144a")
+		(property "Sheetname" "Raspberry Pi"
+			(at 29.21 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "raspberry_pi.kicad_sch"
+			(at 29.21 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 29.21)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e4646bd-9a17-4b53-ab58-a37b75dc5ec3")
+		(property "Sheetname" "Digital IO Expanders"
+			(at 129.54 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_io_expanders.kicad_sch"
+			(at 129.54 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 66.04)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95f15576-e8ab-4cd5-982a-111c38f7aadf")
+		(property "Sheetname" "Current Measurement and Loads"
+			(at 29.21 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_measurement_and_loads.kicad_sch"
+			(at 29.21 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 29.21)
+		(size 20.32 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d86a5a19-9aa5-4fb0-a533-31a54e303539")
+		(property "Sheetname" "DUT"
+			(at 218.44 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dut.kicad_sch"
+			(at 218.44 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
