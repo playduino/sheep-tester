@@ -809,7 +809,7 @@
 		)
 		(uuid "3a6846ef-24f6-4ec5-a0a6-0ca4a0ac9668")
 	)
-	(text "ADDR:  1001010 (0x4B)\nREAD:  10010101\nWRITE: 10010100"
+	(text "ADDR:  1001010 (0x4A)\nREAD:  10010101\nWRITE: 10010100"
 		(exclude_from_sim no)
 		(at 158.75 70.866 0)
 		(effects
