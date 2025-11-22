@@ -1461,6 +1461,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 71.12) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523bf5f4-5996-48ae-a584-38b36d1d1270")
+	)
+	(wire
+		(pts
 			(xy 59.69 81.28) (xy 62.23 81.28)
 		)
 		(stroke
@@ -1581,16 +1591,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 73.66) (xy 69.85 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd8d390-1388-4d1f-b498-c0ac9c192926")
-	)
-	(wire
-		(pts
 			(xy 59.69 78.74) (xy 62.23 78.74)
 		)
 		(stroke
@@ -1618,6 +1618,16 @@
 			(type default)
 		)
 		(uuid "b778ede0-e79a-432b-814d-72997352778e")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99f5497-de5d-48f5-a0b1-0c5f76d8252a")
 	)
 	(wire
 		(pts
@@ -1658,16 +1668,6 @@
 			(type default)
 		)
 		(uuid "d1dd2932-b4ec-48b6-93cf-2cc4cf8e76ea")
-	)
-	(wire
-		(pts
-			(xy 59.69 71.12) (xy 69.85 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61b45b6-3ffd-41dc-bd95-099f899c4cd6")
 	)
 	(wire
 		(pts
@@ -1763,7 +1763,7 @@
 	)
 	(global_label "SCL_PI"
 		(shape input)
-		(at 69.85 71.12 0)
+		(at 69.85 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1773,7 +1773,7 @@
 		)
 		(uuid "17401fb8-6ca0-49c0-8088-a02b1e012180")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.1852 71.12 0)
+			(at 79.1852 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 	)
 	(global_label "SDA_PI"
 		(shape input)
-		(at 69.85 73.66 0)
+		(at 69.85 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1817,7 +1817,7 @@
 		)
 		(uuid "2a5054b0-8e72-4f2c-b48d-ee514eb76ecd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.2457 73.66 0)
+			(at 79.2457 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
