@@ -770,7 +770,7 @@
 		)
 		(uuid "1352191e-0d7a-4d7f-9175-ce45d81c1579")
 	)
-	(text "I2C / SDA (<12V)"
+	(text "I2C / SCL (<12V)"
 		(exclude_from_sim no)
 		(at 116.586 127.254 0)
 		(effects

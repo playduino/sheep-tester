@@ -4435,6 +4435,12 @@
 		(uuid "0892b8bc-e064-4a74-9d83-5731ba03cc23")
 	)
 	(junction
+		(at 140.97 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "459c019c-50b5-4635-8705-47c1991a6c8f")
+	)
+	(junction
 		(at 271.78 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4457,6 +4463,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74274ba-9a81-4e6d-869b-eaa67c86ff1e")
+	)
+	(junction
+		(at 113.03 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0524da0-a0e5-44b7-ad9a-11b5ce843723")
 	)
 	(junction
 		(at 177.8 43.18)
@@ -4772,6 +4784,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ce4b16-51ab-4754-b446-5bd8b8706d71")
+	)
+	(wire
+		(pts
 			(xy 91.44 106.68) (xy 99.06 106.68)
 		)
 		(stroke
@@ -5022,6 +5044,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 69.85) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c989286-a90d-4656-9ea2-b0ad81acbfd1")
+	)
+	(wire
+		(pts
 			(xy 41.91 45.72) (xy 41.91 92.71)
 		)
 		(stroke
@@ -5119,6 +5151,16 @@
 			(type default)
 		)
 		(uuid "5b390b94-6491-4e24-9ed5-abfc49b16142")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 140.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f737367-6bc0-4de1-bfa5-bfebbfd32d77")
 	)
 	(wire
 		(pts
@@ -5242,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 60.96) (xy 114.3 60.96)
+			(xy 110.49 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5449,6 +5491,16 @@
 			(type default)
 		)
 		(uuid "969fffdf-cf2f-4932-af0a-b2198c2f8983")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9898f43e-e4a4-4661-8462-d7c334cb85e0")
 	)
 	(wire
 		(pts
@@ -5762,7 +5814,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.36) (xy 143.51 86.36)
+			(xy 138.43 86.36) (xy 140.97 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5809,6 +5861,16 @@
 			(type default)
 		)
 		(uuid "bfec4694-e719-4385-9cf7-5be025bd76d4")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 143.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12f7fdf-993f-400c-a01c-ff8c1d8f1f1d")
 	)
 	(wire
 		(pts
@@ -5999,6 +6061,16 @@
 			(type default)
 		)
 		(uuid "e3790d76-1996-4c99-ac3e-7b513507e647")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 113.03 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ef7448-be4d-4f8e-a4cc-98ffd7b63716")
 	)
 	(wire
 		(pts
@@ -6214,7 +6286,7 @@
 	)
 	(global_label "LED_BAD"
 		(shape input)
-		(at 142.24 86.36 180)
+		(at 138.43 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6224,7 +6296,7 @@
 		)
 		(uuid "07272750-73b6-4382-81cf-3fa939826aca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.2115 86.36 0)
+			(at 127.4015 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6748,7 @@
 	)
 	(global_label "LED_GOOD"
 		(shape input)
-		(at 113.03 60.96 180)
+		(at 110.49 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6686,7 +6758,7 @@
 		)
 		(uuid "781b37ed-7b1a-4daf-86c9-26dd0f457e84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4291 60.96 0)
+			(at 97.8891 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,6 +8701,76 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
 					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27527c8a-e04c-4b85-9a22-dddf5287c7ef")
+		(property "Reference" "R113"
+			(at 115.57 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.252 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88ce939c-8c6b-4ffe-9943-d7df3edf20f6")
+		)
+		(pin "1"
+			(uuid "8238ce57-a708-468d-915c-8cef8d8dcc68")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -10631,6 +10773,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92915ab1-9e2a-4345-9b6a-6e18dfa6dc89")
+		(property "Reference" "#PWR0148"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cb709b8-f7f4-4996-bffa-7314d5c0c024")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 234.95 129.54 270)
 		(unit 1)
@@ -10870,6 +11078,72 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
 					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4928da5-783b-4276-9225-aeb75562700e")
+		(property "Reference" "#PWR0149"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b92fc07f-aaeb-4016-ba75-8a2cfe527d93")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -12181,6 +12455,76 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d1ab97-c3b2-4606-9394-d2b0bf717a9f")
+		(property "Reference" "R112"
+			(at 143.51 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.192 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2a32450-2e7a-402b-a3c7-dfe6b5bb207d")
+		)
+		(pin "1"
+			(uuid "715cd3c6-6c4b-43ce-99dc-92bb5f6d9dee")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/73295f38-321b-4961-83fc-c1d9b87d144a"
+					(reference "R112")
 					(unit 1)
 				)
 			)
