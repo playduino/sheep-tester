@@ -144,6 +144,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:MCP23017_SO"
 			(pin_names
 				(offset 1.016)
@@ -1652,10 +1776,6 @@
 		(uuid "37d0c739-a73b-45aa-95af-69704814e0c8")
 	)
 	(no_connect
-		(at 237.49 85.09)
-		(uuid "4fc3c688-2420-43b0-82ea-441ee5049972")
-	)
-	(no_connect
 		(at 237.49 95.25)
 		(uuid "5b7628e2-2981-4892-9ced-b6d68649e89a")
 	)
@@ -1718,6 +1838,16 @@
 			(type default)
 		)
 		(uuid "046b5edd-ac9b-4b75-b8ad-e21833c8d1b9")
+	)
+	(wire
+		(pts
+			(xy 237.49 85.09) (xy 240.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ecb6ae-f278-4f3a-9af4-473711a220d8")
 	)
 	(wire
 		(pts
@@ -1911,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 110.49) (xy 201.93 110.49)
+			(xy 182.88 110.49) (xy 187.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2018,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "5be1fc68-0e25-4098-a0a6-589df1172e96")
+	)
+	(wire
+		(pts
+			(xy 195.58 110.49) (xy 201.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3c3ee2-3475-41a1-b9dc-0394664c0669")
 	)
 	(wire
 		(pts
@@ -2361,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 107.95) (xy 193.04 110.49)
+			(xy 182.88 107.95) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3018,6 +3158,28 @@
 		(uuid "c4b2ab54-4e42-4a00-8876-e3942654b90c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.8209 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B6_U3"
+		(shape input)
+		(at 240.03 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5061e44-7221-44c8-bf91-19ee2c09218e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.0023 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +4028,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 193.04 107.95 0)
+		(at 182.88 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3875,7 +4037,7 @@
 		(fields_autoplaced yes)
 		(uuid "63babf56-3a2e-4b4b-aad0-f95dd367cdd7")
 		(property "Reference" "#PWR010"
-			(at 193.04 111.76 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +4046,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 193.04 102.87 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 107.95 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +4063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 107.95 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 193.04 107.95 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,6 +4703,74 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/8e4646bd-9a17-4b53-ab58-a37b75dc5ec3"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9054f8a-4e8d-4631-8b07-678ee161cc7b")
+		(property "Reference" "R111"
+			(at 191.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 191.77 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 191.77 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce158c8a-5fcc-4e0e-843b-4b0f45ed5ada")
+		)
+		(pin "1"
+			(uuid "87508d43-44c1-4d57-92c7-12f2f83f1b1d")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/8e4646bd-9a17-4b53-ab58-a37b75dc5ec3"
+					(reference "R111")
 					(unit 1)
 				)
 			)

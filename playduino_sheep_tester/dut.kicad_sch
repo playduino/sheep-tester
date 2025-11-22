@@ -4192,7 +4192,7 @@
 	)
 	(text "current measurement\nGND"
 		(exclude_from_sim no)
-		(at 121.666 115.824 0)
+		(at 124.968 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4252,7 +4252,7 @@
 	)
 	(text "IR diodes"
 		(exclude_from_sim no)
-		(at 163.83 83.058 0)
+		(at 163.83 88.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4272,7 +4272,7 @@
 	)
 	(text "current measurement\nGND"
 		(exclude_from_sim no)
-		(at 163.576 115.824 0)
+		(at 166.878 116.078 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4282,7 +4282,7 @@
 	)
 	(text "beeper"
 		(exclude_from_sim no)
-		(at 121.92 83.058 0)
+		(at 121.92 88.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4327,6 +4327,12 @@
 		(uuid "0850cc0c-032d-468f-b772-f9d4db87c045")
 	)
 	(junction
+		(at 151.13 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "241d114e-8638-449f-8fac-a0cfd5c59308")
+	)
+	(junction
 		(at 80.01 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4345,10 +4351,22 @@
 		(uuid "3a08e3dc-c646-4704-9c92-454818cfc065")
 	)
 	(junction
+		(at 95.25 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a963940-6037-4918-972b-9c21b8fe1f3c")
+	)
+	(junction
 		(at 22.86 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "460e1f93-ac2a-4dfc-a03a-05abf0b49192")
+	)
+	(junction
+		(at 153.67 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58224942-94df-4c36-9bcc-3fcdcadfdef9")
 	)
 	(junction
 		(at 113.03 54.61)
@@ -4375,16 +4393,40 @@
 		(uuid "8ad9808c-2caf-41a9-9f1b-2eee0e9b8ae1")
 	)
 	(junction
+		(at 135.89 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3c1943b-04b1-48d3-b62f-5bf92e80cc0b")
+	)
+	(junction
 		(at 129.54 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c27f4dd4-5cf3-41d2-af8e-070dbca41d7c")
 	)
 	(junction
+		(at 109.22 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbcd68c3-0544-4208-9ccc-e44f3258a8f9")
+	)
+	(junction
+		(at 162.56 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc15dd6f-7cd1-46bb-ac9d-69826bb8bede")
+	)
+	(junction
 		(at 196.85 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cde393c9-6b80-4df0-b6b3-3bae9c1092d1")
+	)
+	(junction
+		(at 110.49 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0d47e39-2298-4245-ba9b-adc8b40ce788")
 	)
 	(junction
 		(at 248.92 105.41)
@@ -4506,7 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 110.49 137.16)
+			(xy 107.95 137.16) (xy 109.22 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 129.54 86.36)
+			(xy 125.73 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4586,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 77.47) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130e92d2-97e4-44c1-82f8-26e50691014d")
+	)
+	(wire
+		(pts
 			(xy 72.39 91.44) (xy 72.39 92.71)
 		)
 		(stroke
@@ -4616,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 137.16) (xy 152.4 137.16)
+			(xy 148.59 137.16) (xy 151.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4726,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 171.45 96.52)
+			(xy 171.45 91.44) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4806,6 +4858,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 172.72) (xy 137.16 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45991ea3-11dc-443a-89b8-ea795c4efa8e")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e40c7f-2b39-4213-be32-0a260c028fa0")
+	)
+	(wire
+		(pts
 			(xy 168.91 127) (xy 168.91 132.08)
 		)
 		(stroke
@@ -4826,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 96.52 69.85)
+			(xy 93.98 69.85) (xy 95.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4843,6 +4915,16 @@
 			(type default)
 		)
 		(uuid "48603139-831f-4bd0-9bb7-da66f7228855")
+	)
+	(wire
+		(pts
+			(xy 162.56 69.85) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6e2471-e029-4f41-97a0-59582125fa3a")
 	)
 	(wire
 		(pts
@@ -4946,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 69.85) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c74f7c0-6cce-4ced-b294-5db3d0ec42c3")
+	)
+	(wire
+		(pts
 			(xy 80.01 161.29) (xy 80.01 156.21)
 		)
 		(stroke
@@ -4966,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 69.85) (xy 163.83 69.85)
+			(xy 160.02 69.85) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5096,6 +5188,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 137.16) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7478398e-de50-4015-aa49-8994e83320eb")
+	)
+	(wire
+		(pts
 			(xy 176.53 54.61) (xy 180.34 54.61)
 		)
 		(stroke
@@ -5166,7 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 129.54 96.52)
+			(xy 129.54 91.44) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5216,7 +5318,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 172.72) (xy 137.16 172.72)
+			(xy 133.35 172.72) (xy 135.89 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5276,6 +5378,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 78.74) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a13b1ca-b6c7-4db5-b91a-187548532960")
+	)
+	(wire
+		(pts
 			(xy 213.36 95.25) (xy 218.44 95.25)
 		)
 		(stroke
@@ -5296,6 +5408,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 137.16) (xy 110.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc37cda-442d-4a5a-9739-9979d366ab9c")
+	)
+	(wire
+		(pts
 			(xy 129.54 35.56) (xy 129.54 38.1)
 		)
 		(stroke
@@ -5313,6 +5435,16 @@
 			(type default)
 		)
 		(uuid "8ee0e453-26ae-401d-9e80-f0bf62f84cdb")
+	)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 96.52 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908d9fe0-e169-45ca-9a77-36532c301774")
 	)
 	(wire
 		(pts
@@ -5436,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 171.45 86.36)
+			(xy 167.64 91.44) (xy 171.45 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5506,6 +5638,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 109.22) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dc8bcc-7d90-4d80-bcac-70f26f32dba3")
+	)
+	(wire
+		(pts
 			(xy 180.34 74.93) (xy 180.34 76.2)
 		)
 		(stroke
@@ -5553,6 +5695,16 @@
 			(type default)
 		)
 		(uuid "abc8bf32-29c8-45b6-ae96-3b25f8eaea81")
+	)
+	(wire
+		(pts
+			(xy 151.13 144.78) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdc4bdc-a0fc-4fd8-87a1-8e2438f7bad0")
 	)
 	(wire
 		(pts
@@ -5746,13 +5898,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 154.94 101.6)
+			(xy 152.4 101.6) (xy 153.67 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc815150-bc1f-4bbb-8d13-43ce408ec5b2")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc87b3ee-7a86-43f1-af61-cee857d61207")
+	)
+	(wire
+		(pts
+			(xy 110.49 109.22) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce32f646-8274-4be9-b940-f8b38698bc32")
 	)
 	(wire
 		(pts
@@ -5776,13 +5948,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 101.6) (xy 113.03 101.6)
+			(xy 109.22 101.6) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0dc04aa-4312-469e-8a3c-70ac522c44a6")
+	)
+	(wire
+		(pts
+			(xy 135.89 180.34) (xy 135.89 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11386b2-5b31-4bf3-90c8-5eae3c46bae5")
+	)
+	(wire
+		(pts
+			(xy 109.22 144.78) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53ca5ce-ca9e-4498-87e2-e471d2ceec73")
 	)
 	(wire
 		(pts
@@ -6482,7 +6674,7 @@
 	)
 	(global_label "TP23"
 		(shape input)
-		(at 167.64 86.36 180)
+		(at 167.64 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6492,7 +6684,7 @@
 		)
 		(uuid "329337a3-48ae-4447-a0dc-cad9973a9a3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.9982 86.36 0)
+			(at 159.9982 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6760,7 @@
 			)
 		)
 	)
-	(global_label "B7_U2"
+	(global_label "A3_U2"
 		(shape input)
 		(at 210.82 25.4 0)
 		(fields_autoplaced yes)
@@ -6578,9 +6770,9 @@
 			)
 			(justify left)
 		)
-		(uuid "596402be-7d6f-4499-9a67-ee60dc023095")
+		(uuid "56f13b85-dd09-4fdb-a81a-ddd937f56f9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.7923 25.4 0)
+			(at 219.6109 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6960,7 @@
 	)
 	(global_label "A2_U2"
 		(shape input)
-		(at 92.71 69.85 180)
+		(at 93.98 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6778,29 +6970,7 @@
 		)
 		(uuid "6ed8a15e-a2b5-4ec6-8757-4a5f7febe631")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.9191 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A3_U2"
-		(shape input)
-		(at 160.02 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70966350-e39e-4efe-9e9d-9bf699c1ec66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.2291 69.85 0)
+			(at 85.1891 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,6 +7090,28 @@
 			)
 		)
 	)
+	(global_label "B7_U2"
+		(shape input)
+		(at 160.02 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87cb98b1-2642-43a0-bc33-c94639d36d3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.0477 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TP1"
 		(shape input)
 		(at 167.64 111.76 180)
@@ -6966,7 +7158,7 @@
 	)
 	(global_label "B3_U3"
 		(shape input)
-		(at 135.89 172.72 180)
+		(at 133.35 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6976,7 +7168,7 @@
 		)
 		(uuid "8f4e18b5-79c9-41ae-9841-6b939cac30fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9177 172.72 0)
+			(at 124.3777 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7180,7 @@
 	)
 	(global_label "A5_U2"
 		(shape input)
-		(at 153.67 101.6 180)
+		(at 152.4 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6998,7 +7190,7 @@
 		)
 		(uuid "91bd676f-8c7f-4db5-aa02-0a51698c7579")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8791 101.6 0)
+			(at 143.6091 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7268,7 @@
 	)
 	(global_label "B1_U3"
 		(shape input)
-		(at 109.22 137.16 180)
+		(at 107.95 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7086,7 +7278,7 @@
 		)
 		(uuid "a7c55715-d2fb-43ab-8260-09e73fe3fb23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.2477 137.16 0)
+			(at 98.9777 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +7290,7 @@
 	)
 	(global_label "TP22"
 		(shape input)
-		(at 125.73 86.36 180)
+		(at 125.73 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7108,7 +7300,7 @@
 		)
 		(uuid "a7e73039-ce19-4f8d-9b82-2c697b4c922a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.0882 86.36 0)
+			(at 118.0882 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7312,7 @@
 	)
 	(global_label "B2_U3"
 		(shape input)
-		(at 151.13 137.16 180)
+		(at 148.59 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7130,7 +7322,7 @@
 		)
 		(uuid "aca591aa-d498-480b-8846-b7673ef94a9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.1577 137.16 0)
+			(at 139.6177 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7554,7 @@
 	)
 	(global_label "A4_U2"
 		(shape input)
-		(at 111.76 101.6 180)
+		(at 109.22 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7372,7 +7564,7 @@
 		)
 		(uuid "e2299a91-7296-4ba8-bd2b-3c8b312b69cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.9691 101.6 0)
+			(at 100.4291 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,6 +8244,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a28acb5-3054-406a-9e76-954adb3b3687")
+		(property "Reference" "#PWR0143"
+			(at 151.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7de01761-2e20-42d4-9a09-bf312ff9be32")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ade25fc-9917-4b9e-8a8e-087c64c569f7")
+		(property "Reference" "R101"
+			(at 97.79 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.028 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49f02b08-7ba4-4099-b7d2-c7c6f4bbed09")
+		)
+		(pin "1"
+			(uuid "9eda5078-b4b2-4170-9931-3eb344c025b3")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 166.37 137.16 0)
 		(unit 1)
@@ -8262,6 +8590,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 153.67 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b42b0b-32e5-496b-adfb-833d600b1dff")
+		(property "Reference" "R103"
+			(at 156.21 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 156.21 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 155.448 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ea70d59-d453-4c27-b395-3380ca38b4a2")
+		)
+		(pin "1"
+			(uuid "7a9ea987-b80d-4673-9060-c9c0f4bd3be1")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 110.49 69.85 0)
 		(unit 1)
@@ -8398,6 +8796,142 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275bceb1-476c-4120-997f-a43c8281137b")
+		(property "Reference" "#PWR0138"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b457b864-847a-49b7-beb3-b25d3cb4e661")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed323a4-d10b-4f75-98fd-bc37ace92df3")
+		(property "Reference" "R104"
+			(at 113.03 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 113.03 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.268 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc3b57c0-d85e-4af5-b680-9266e4453280")
+		)
+		(pin "1"
+			(uuid "8d6d9e8a-4193-4385-97a5-6cf2a6bfd325")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -9278,6 +9812,142 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5305d6fa-13fc-43e2-9eef-5fc29a0f4226")
+		(property "Reference" "#PWR0140"
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aabedca-1fba-4117-83cf-fbd37ea5edef")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e6b0b1-9f2a-4228-938a-832d0913c1f6")
+		(property "Reference" "R102"
+			(at 165.1 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 164.338 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fe50fc3-9443-4042-b396-d98b750f3810")
+		)
+		(pin "1"
+			(uuid "27cd7e2a-9003-40df-97aa-5d748fb2ce4c")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -11895,6 +12565,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1e42962-db95-4193-9317-1f1a9eaad201")
+		(property "Reference" "#PWR0142"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63ff14a7-4cb3-4f36-9b65-61f467895ef4")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 127 101.6 0)
 		(unit 1)
@@ -12802,6 +13538,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4d49c2d-12c9-48e8-a0d2-4caa85d2cab5")
+		(property "Reference" "#PWR0139"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a36fc5-7a71-4800-901c-875d18c39704")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 168.91 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12861,6 +13663,142 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f20d895d-d26e-43fb-97d1-8125682ad9f0")
+		(property "Reference" "R105"
+			(at 111.76 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 111.76 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 110.998 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "216104fe-84c0-4b4e-ae2c-77a17bf8e337")
+		)
+		(pin "1"
+			(uuid "9392f211-0c44-488d-b023-3e7cdd4bf50e")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f22cf2a3-6b4c-49db-a3de-f504714c8105")
+		(property "Reference" "#PWR0141"
+			(at 110.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c9dbaaf-0c80-4c2e-99d1-22cc931fedfc")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -13005,6 +13943,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 135.89 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7396454-b628-4c06-961b-ba09652f7265")
+		(property "Reference" "#PWR0144"
+			(at 135.89 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b126ed-fcce-4ae6-a216-9441a248f4d2")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 113.03 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13064,6 +14068,76 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa0a7911-4a79-4fb2-afaf-1f465150597a")
+		(property "Reference" "R107"
+			(at 138.43 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 137.668 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92648650-40d0-43e4-9316-797bffd19d76")
+		)
+		(pin "1"
+			(uuid "cd19ba9a-d602-4f13-8e5c-23896b17516d")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -13130,6 +14204,76 @@
 			(project "playduino_sheep_tester"
 				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff43131d-7b03-4ff0-9d6c-f5cab48ef063")
+		(property "Reference" "R106"
+			(at 153.67 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.908 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e40a36a9-6ea8-4813-8c37-d4a2d87e1079")
+		)
+		(pin "1"
+			(uuid "c15f99fa-ed1a-4d38-8543-5c299f9aa333")
+		)
+		(instances
+			(project "playduino_sheep_tester"
+				(path "/88c9457a-bea2-457f-94da-c611a4bbda4a/d86a5a19-9aa5-4fb0-a533-31a54e303539"
+					(reference "R106")
 					(unit 1)
 				)
 			)
