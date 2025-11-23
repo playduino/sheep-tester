@@ -44230,7 +44230,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dcc36f8c-aec2-4a7f-bb9a-adb1d1e5fa61")
-		(at 145.8 56.8 180)
+		(at 147.4 56.8 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -52738,6 +52738,32 @@
 		(layer "Edge.Cuts")
 		(uuid "daac169b-7f9e-442b-9d2b-fef7bb6edd4a")
 	)
+	(gr_text "0V"
+		(at 133.576829 55.315054 180)
+		(layer "F.SilkS")
+		(uuid "31cc7a7f-dcb8-4478-a85e-ea0258137358")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 145.70686 55.33138 180)
+		(layer "F.SilkS")
+		(uuid "37e3eafc-8208-4b9f-af82-26064122b443")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "FAULT"
 		(at 119.472903 92.89411 0)
 		(layer "F.SilkS")
@@ -54503,20 +54529,20 @@
 		(uuid "2ae0cd4b-ba5c-47a4-9791-a4d58e02a7f2")
 	)
 	(segment
-		(start 144.975 56.8)
-		(end 144 56.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "2be4e4fb-9ea6-4d23-a3f0-89ba8ae35eba")
-	)
-	(segment
 		(start 131.105914 121.072343)
 		(end 130.272343 121.072343)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "2e7bcc57-c942-4bf8-9074-721dd986b52b")
+	)
+	(segment
+		(start 144 56.8)
+		(end 146.575 56.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "2ec294fe-0c1d-4b38-a836-1503e4364b6f")
 	)
 	(segment
 		(start 171.181238 92.16945)
@@ -58855,20 +58881,28 @@
 		(uuid "d0647f5f-a0cc-4554-9aa5-60bcff9c8a8c")
 	)
 	(segment
+		(start 148.275 58.45)
+		(end 148.225 58.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "bef7ca12-2655-4a72-883b-9ec1291cda1d")
+	)
+	(segment
+		(start 148.225 58.4)
+		(end 148.225 56.8)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "e3fe584a-c861-4a84-a8e5-1c48b0507c4c")
+	)
+	(segment
 		(start 148.275 58.695)
 		(end 148.275 58.45)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 62)
-		(uuid "3e700b05-bc50-4242-954f-49c57f4a7a8b")
-	)
-	(segment
-		(start 148.275 58.45)
-		(end 146.625 56.8)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 62)
-		(uuid "65f4c514-0843-4f79-bb32-e245784f64ec")
+		(uuid "fe044b36-3e55-47e3-916e-e497373b157c")
 	)
 	(segment
 		(start 94.204324 99.659639)
