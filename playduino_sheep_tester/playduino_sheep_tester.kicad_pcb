@@ -3941,6 +3941,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C309586"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a8d7dfaf-51fb-43fa-8cbd-dc168e9f00af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1ed985a8-84a3-4d9c-aa8a-4653505597e1/70769b16-e90f-4b2a-b2dc-8c3ca26eec64")
 		(sheetname "/Power Supply/")
@@ -44536,6 +44548,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87afa5b9-f92a-4234-9d47-b78f936656cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25197"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df23e70c-35b2-4763-af06-5ed9c8554cb5")
 			(effects
 				(font
 					(size 1.27 1.27)
