@@ -6650,7 +6650,7 @@
 			)
 		)
 	)
-	(global_label "TP_GPIO32"
+	(global_label "TP_GPIO35"
 		(shape input)
 		(at 40.64 58.42 180)
 		(fields_autoplaced yes)
@@ -6738,7 +6738,7 @@
 			)
 		)
 	)
-	(global_label "TP_GPIO32"
+	(global_label "TP_GPIO35"
 		(shape input)
 		(at 127 127 180)
 		(fields_autoplaced yes)
